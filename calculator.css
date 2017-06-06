@@ -188,39 +188,49 @@ input[type=text] {
 }
 #howToUseCalc {
   display: inline-block;
-  font-family: "Arial";
-  font-size: 13px;
+  font-family: "gt_walsheim_regular";
+  font-size: 17.5px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 15px;
   margin: 0 auto;
-  color: #CD5C5C;
+  /*color: #CD5C5C;*/
+   color: black;
   position: relative;
 }
 
 #howToUseCalc2 {
   display: inline-block;
-  font-family: "Arial";
-  font-size: 13px;
+  font-family: "gt_walsheim_regular";
+  font-size: 17.5px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 15px;
   margin: 0 auto;
-  color: #CD5C5C;
+  /*color: #00FA9A; */
+    color: black;
   position: relative;
 }
 
 #howToUseCalc3 {
   display: inline-block;
-  font-family: "Arial";
-  font-size: 13px;
+  font-family: "gt_walsheim_regular";
+  font-size: 17.5px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 15px;
   margin: 0 auto;
-  color: #CD5C5C;
+  /*color: #87cefa;*/
+  color: black;
   position: relative;
+}
+@font-face {
+	font-family: 'gt_walsheim_regular';
+	src: url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.eot');
+	src: url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.woff') format('woff'), url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.ttf') format('truetype'), url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.svg#gt_walsheim_bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
 }
