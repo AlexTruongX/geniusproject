@@ -1,0 +1,226 @@
+.page, body {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 1%, #a6a6a6);
+    background-size: cover;
+}
+
+/* Rows, allows the buttons and lines to be properly next to each other */
+.row {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.short {
+    display: inline-block;
+    margin: 0;
+}
+/* Entire Calculator */
+
+.calculator {
+    height: 440px;
+    overflow-x: hidden;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    background: #00ccff;
+    background: linear-gradient(#9dd2ea, #80e5ff);
+    border-radius: 3px;
+    box-shadow: 0px 4px #007a99, 0px 10px 15px rgba(0,0,0,0.2);
+    padding: 0px;
+    text-align: center;
+    border: 1.7px;
+}
+
+/* All the buttons */
+
+button {
+    width: 45px;
+    height: 45px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background: #f2f2f2;
+    box-shadow: 0px 4px #bfbfbf;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+
+}
+/* Display/Screen */
+input[type=text] {
+    border-radius: 7px;
+    width: 87%;
+    margin-bottom: 10px;
+    line-height: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C3C2AB;
+    font-size: 2em;
+    text-align: right;
+    background: rgba(0,0,0,0.2);
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    /* Typography */
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    letter-spacing: 1px;
+}
+/* Everything for the numbers */
+.numbers {
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 7px 11px 0;
+    color: #888;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+    /*Smoothing out hover and active statuses using css3 transitions */
+    transition: all 0.3s ease;
+}
+
+.numbers:hover {
+    background: #9999ff;
+    box-shadow: 0px 4px #6b54d3;
+    color: white;
+}
+
+.numbers:active {
+    box-shadow: 0px 4px #6b54d3;
+    top: 4px;
+}
+
+/* Everything for the operators */
+.operators {
+    background-color: #ffe6ee;
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 4px #990000;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    margin: 0 7px 11px 0;
+    color: #888;
+    line-height: 36px;
+    cursor: pointer;
+    user-select: none;
+    
+    /*Smoothing out hover and active statuses using css3 transitions */
+    transition: all 0.2s ease;
+}
+
+.operators:hover {
+    background: #ffcc99;
+    box-shadow: 0px 4px #ffb366;
+    color: white;
+}
+
+.operators:active {
+    box-shadow: 0px 4px #ffb366;
+    top: 4px;
+}
+
+/* Clears Button */
+.clear {
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    margin: 0 7px 11px 0;
+    color: black;
+    line-height: 36px;
+    text-align: center; 
+    user-select: none;
+    
+    /*Smoothing out hover and active statuses using css3 transitions */
+    transition: all 0.2s ease;
+    background: #ff9fa8;
+    box-shadow: 0px 4px #ff7c87;
+    color: white;
+}
+
+.clear:hover {
+    background: #CD5C5C;
+    box-shadow: 0px 4px #9C3030;
+    color: white;
+}
+
+.clear:active {
+    background: #CD5C5C;
+    box-shadow: 0px 4px #9C3030;
+    top: 4px;
+}
+
+/* Equals Button */
+.equals {
+    background: #f1ff92;
+    box-shadow: 0px 4px #9da853;
+    color: #888e5f;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.equals:hover {
+    background: #abb850;
+    box-shadow: 0px 4px #717a33;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.equals:active {
+    top: 4px;
+    box-shadow: 0px 4px #535a26;
+    border-radius: 3px;
+}
+#howToUseCalc {
+  display: inline-block;
+  font-family: "Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0 auto;
+  color: #CD5C5C;
+  position: relative;
+}
+
+#howToUseCalc2 {
+  display: inline-block;
+  font-family: "Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0 auto;
+  color: #CD5C5C;
+  position: relative;
+}
+
+#howToUseCalc3 {
+  display: inline-block;
+  font-family: "Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0 auto;
+  color: #CD5C5C;
+  position: relative;
+}

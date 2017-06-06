@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<link rel="stylesheet" href="calculator.css" type="text/css" />
+	</head>
+	
+	<body>
+	  <center>
+      <p id="howToUseCalc"><b>HOW TO USE EXP:</b> Click EXP. Put one value in, click the comma, and insert another value. Then click the end parentheses.</p>
+    </center>
+    <br>
+    <center>
+      <p id="howToUseCalc" style="color: #00FA9A;"><b>HOW TO USE AVG:</b> Insert a value, click the plus button ( <span style="font-family: Times New Roman;">+ </span>), insert another value (repeat step 2 and 3 as much as you want) then click the AVG Button.</p>
+    </center>
+    <br>
+    <center>
+      <p id="howToUseCalc" style="color: #87cefa;"><b>HOW TO USE &#8730;:</b> Click &#8730;, enter desired value, then click the end parentheses.</p>
+    </center>
+	<div class="calculator" style="position: relative; top: 75px;">
+      <br>
+      <input type="text" id="screen" disabled>
+      <!-- dir=rtl -->
+      <div class="row">
+        <!--<button id="test">Test</button-->
+
+        <button class="operators" id="mean">AVG</button>
+
+        <button class="operators" value="Math.pow(">EXP</button>
+        <button class="operators" value="Math.sqrt(">&#8730;</button>
+
+        <button class="clear" id="clear">CE</button>
+      </div>
+      <div class="row">
+
+        <button class="numbers" value="3.14">&#960;</button>
+        <button class="operators" value="(">(</button>
+        <button class="operators" value=")">)</button>
+        <button class="operators" value=",">,</button>
+
+
+      </div>
+      <div class="row">
+        <button class="numbers" value="7">7</button>
+        <button class="numbers" value="8">8</button>
+        <button class="numbers" value="9">9</button>
+        <button class="operators" id="divide" value="/">&#247;</button>
+      </div>
+      <div class="row">
+        <button class="numbers" value="4">4</button>
+        <button class="numbers" value="5">5</button>
+        <button class="numbers" value="6">6</button>
+        <button class="operators" value="*">&#215;</button>
+
+      </div>
+      <div class="row short">
+        <button class="numbers" value="1">1</button>
+        <button class="numbers" value="2">2</button>
+        <button class="numbers" value="3">3</button>
+      </div>
+      <button class="operators" value="-">-</button>
+
+      <div class="row short">
+        <button class="numbers" value="0">0</button>
+        <button class="numbers" value=".">.</button>
+        <button class="equals" id="equal">=</button>
+      </div>
+      <button class="operators" value="+">+</button>
+    </div>
+    
+	</body>
+	
+	<script type="text/javascript" src="calculator.js"></script>
+</html>
