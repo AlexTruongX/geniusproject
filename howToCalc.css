@@ -1,0 +1,112 @@
+
+body {
+    overflow: hidden;
+	background: url("http://i.imgur.com/vrOY9q0.jpg") no-repeat center center fixed;
+	height: 1vh;
+	background-size: cover;
+}
+.Title {
+    color: white;
+    font-family: "gt_walsheim_regular";
+    font-size: 35px;
+    text-align: left;
+    position: relative;
+    left: 100px;
+    width: 40px;
+    top: -75px;
+    
+}
+.Title:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+}
+.titleSelected {
+    font-family: "gt_walsheim_regular";
+    text-decoration: underline;
+    color: #F08080;
+}
+.visible {
+    color: #87CEFA;
+    font-family: "gt_walsheim_regular";
+}
+#htmlHeaders {
+    display: none;
+    position: absolute;
+    top: 175px;
+    left: 219px;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    padding:10px 10px;
+    width: 100px;
+    line-height: 50px;
+}
+#jsHeaders {
+    display: none;
+    position: absolute;
+    top: 185px;
+    left: 229px;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+    color: white;
+    vertical-align: middle;
+    width: 100px;
+    line-height: 50px;
+}
+.allHeaders:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+}
+#htmlHeader1Info {
+    display: none;
+}
+#htmlHeader2Info {
+    display: none;
+}
+#htmlHeader3Info {
+    display: none;
+}
+#htmlHeader4Info {
+    display: none;
+}
+#text {
+    font-family: "gt_walsheim_regular";
+    font-size: 15px;
+    color: #87CEFA;
+    position: relative;
+    top: -205px;
+    left: 650px;
+    width: 475px;
+}
+#code {
+    position: absolute;
+    top: 200px;
+    left: 345px;
+}
+#result {
+    position: absolute;
+    top: 190px;
+    left: 1150px;
+}
+p {
+    width: 475px;
+}
+#textJs {
+    font-family: "gt_walsheim_regular";
+    font-size: 16px;
+    color: #87CEFA;
+    position: relative;
+    left: 730px;
+    top: -425px;
+}
+#howToCalcSubHeader {
+	color: #CD5C5C;
+	font-size: 12px;
+	font-family : "gt_walsheim_regular";
+	position: absolute;
+	left: 560px;
+	top: 160px;
+}
